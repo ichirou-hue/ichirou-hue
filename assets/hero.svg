@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Egor — ichirou-hue</title>
+  <desc id="desc">Terminal-inspired banner for a full-stack developer building AI-powered products.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#101b2c"/>
+      <stop offset="1" stop-color="#1c1833"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#65e5c5"/>
+      <stop offset="0.54" stop-color="#70bcff"/>
+      <stop offset="1" stop-color="#b9a0ff"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8a9ab5" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <clipPath id="frame">
+      <rect width="1200" height="320" rx="20"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <circle cx="1020" cy="160" r="135" fill="#604bc5" opacity=".14" filter="url(#glow)"/>
+    <circle cx="720" cy="275" r="100" fill="#4ce3ca" opacity=".09" filter="url(#glow)"/>
+    <path d="M0 48H1200" stroke="#9dadc4" stroke-opacity=".18"/>
+    <circle cx="28" cy="24" r="5" fill="#ff6e77"/>
+    <circle cx="48" cy="24" r="5" fill="#ffc86c"/>
+    <circle cx="68" cy="24" r="5" fill="#6de1a3"/>
+    <text x="92" y="29" fill="#7f91ab" font-family="Consolas, Menlo, monospace" font-size="14">~/ichirou-hue/profile</text>
+    <text x="1128" y="29" fill="#7f91ab" font-family="Consolas, Menlo, monospace" font-size="13">README.md</text>
+    <rect x="50" y="76" width="4" height="197" rx="2" fill="url(#accent)"/>
+    <text x="76" y="101" fill="#63e2ba" font-family="Consolas, Menlo, monospace" font-size="17">egor@github:~$</text>
+    <text x="239" y="101" fill="#b6c5d8" font-family="Consolas, Menlo, monospace" font-size="17">whoami</text>
+    <text x="76" y="168" fill="#f3f7ff" font-family="Consolas, Menlo, monospace" font-size="54" font-weight="700" letter-spacing="-2">EGOR</text>
+    <text x="258" y="168" fill="#6e83a2" font-family="Consolas, Menlo, monospace" font-size="36" font-weight="700">/</text>
+    <text x="288" y="168" fill="url(#accent)" font-family="Consolas, Menlo, monospace" font-size="38" font-weight="700" letter-spacing="-1">ichirou-hue</text>
+    <text x="77" y="207" fill="#b7c8de" font-family="Consolas, Menlo, monospace" font-size="20">full-stack products  ·  AI systems  ·  chess tech</text>
+    <text x="77" y="258" fill="#6ce8c3" font-family="Consolas, Menlo, monospace" font-size="16">&gt;</text>
+    <text x="95" y="258" fill="#8fa4bf" font-family="Consolas, Menlo, monospace" font-size="16">building ideas into working software</text>
+    <rect x="831" y="86" width="313" height="175" rx="14" fill="#101827" fill-opacity=".82" stroke="#33445b"/>
+    <text x="855" y="115" fill="#7891ad" font-family="Consolas, Menlo, monospace" font-size="14">const focus = {</text>
+    <text x="870" y="145" fill="#75d7bd" font-family="Consolas, Menlo, monospace" font-size="14">ui:</text>
+    <text x="911" y="145" fill="#d3e5f8" font-family="Consolas, Menlo, monospace" font-size="14">"React",</text>
+    <text x="870" y="175" fill="#75d7bd" font-family="Consolas, Menlo, monospace" font-size="14">api:</text>
+    <text x="920" y="175" fill="#d3e5f8" font-family="Consolas, Menlo, monospace" font-size="14">"FastAPI",</text>
+    <text x="870" y="205" fill="#75d7bd" font-family="Consolas, Menlo, monospace" font-size="14">ai:</text>
+    <text x="911" y="205" fill="#d3e5f8" font-family="Consolas, Menlo, monospace" font-size="14">"LLM + RAG"</text>
+    <text x="855" y="235" fill="#7891ad" font-family="Consolas, Menlo, monospace" font-size="14">};</text>
+    <rect x="0" y="317" width="1200" height="3" fill="url(#accent)"/>
+  </g>
+</svg>
