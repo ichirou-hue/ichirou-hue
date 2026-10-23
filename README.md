@@ -1,8 +1,8 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:1e2327,100:36BCF7&height=220&section=header&text=Egor&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-stack%20developer%20·%20AI%20·%20Chess%20tech&descAlignY=60&descSize=20)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:1e2327,100:36BCF7&height=220&section=header&text=Egor&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Learning%20to%20build%20%C2%B7%20Chess%20%C2%B7%20AI&descAlignY=60&descSize=20)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Строю+веб-продукты+целиком;Интеграция+AI+в+работающие+сервисы;Шахматы+%2B+LLM+%2B+Stockfish;Project+Lead+в+SFEDUCASTLING)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Разбираюсь+в+веб-разработке;От+идеи+к+своему+коду;Шахматы+%2B+AI+%2B+практика;Шаг+за+шагом+к+full-stack)](https://git.io/typing-svg)
 
 </div>
 
@@ -10,7 +10,8 @@
 
 ### 👋 Обо мне
 
-- 🔭 Full-stack разработчик, делаю продукты целиком: API, данные, интерфейсы и AI
+- 🔭 Учусь создавать веб-продукты: разбираюсь в интерфейсах, API и данных и хочу уверенно писать код самостоятельно
+- 🎯 Моя цель — вырасти в full-stack разработчика через собственные проекты и регулярную практику
 - ♟️ Project Lead в [SFEDUCASTLING](https://github.com/ichirou-hue/SFEDUCASTLING): Stockfish, Maia3, LLM-разборы партий
 - ♜ Автор [CoolChess](https://github.com/ichirou-hue/CoolChess): PvP через WebSocket, рейтинг, турниры
 - 🧠 Интересуюсь RAG, QLoRA и проверяемым AI
