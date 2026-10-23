@@ -1,6 +1,6 @@
 <div align="center">
 
-![Сакура на закате](./sakura-banner.png)
+![ichirou-hue — animated pixel sakura](./ichirou-sakura-pixel.gif)
 
 </div>
 
