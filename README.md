@@ -53,6 +53,8 @@
 
 ### 📫 Контакты
 
+[![Telegram](https://img.shields.io/badge/Telegram-ich1rou-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ich1rou)
+[![Email](https://img.shields.io/badge/Email-egorvovk280807%40mail.ru-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:egorvovk280807@mail.ru)
 [![GitHub](https://img.shields.io/badge/GitHub-ichirou--hue-181717?style=for-the-badge&logo=github)](https://github.com/ichirou-hue)
 
 ---
