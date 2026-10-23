@@ -1,8 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:1e2327,100:36BCF7&height=220&section=header&text=Egor&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Learning%20to%20build%20%C2%B7%20Chess%20%C2%B7%20AI&descAlignY=60&descSize=20)
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Разбираюсь+в+веб-разработке;От+идеи+к+своему+коду;Шахматы+%2B+AI+%2B+практика;Шаг+за+шагом+к+full-stack)](https://git.io/typing-svg)
+![Сакура на закате](./sakura-banner.png)
 
 </div>
 
@@ -75,8 +73,3 @@
   <a href="https://github.com/ichirou-hue?tab=repositories"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
-<div align="center">
-
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,100:1e2327&height=100&section=footer)
-
-</div>
