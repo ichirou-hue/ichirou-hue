@@ -1,6 +1,6 @@
 <div align="center">
 
-![ichirou-hue — animated pixel sakura](./ichirou-sakura-pixel.gif)
+![ichirou-hue — animated pixel sakura](./ichirou-sakura-pixel-optimized.gif)
 
 </div>
 
