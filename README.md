@@ -42,6 +42,22 @@
 
 ### 📊 Статистика GitHub
 
+<!-- github-stats:start -->
+| Показатель | Значение |
+|:--|--:|
+| Вклады за последние 12 месяцев | **143** |
+| Серия: сейчас / максимум за период | **3 / 6** дней |
+| Коммиты / pull requests | **136 / 2** |
+| Issues / code reviews | **0 / 0** |
+| Создано репозиториев | **4** |
+| Публичные репозитории / звёзды | **4 / 2** |
+| Подписчики | **0** |
+
+**Языки публичных репозиториев:** Python 71%, JavaScript 12%, TypeScript 12%, CSS 5%, Shell <1%.
+
+<sub>Вклады, серии, коммиты, PR, issues, reviews и созданные репозитории — за последние 12 месяцев; остальные числа — текущие. Данные GitHub API. Проценты языков рассчитаны по объёму кода в собственных публичных репозиториях без форков.</sub>
+<!-- github-stats:end -->
+
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=ichirou-hue&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ichirou-hue&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />

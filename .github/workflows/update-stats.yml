@@ -1,0 +1,43 @@
+name: Update profile statistics
+
+on:
+  schedule:
+    # 06:17 MSK; avoids GitHub Actions' busiest minute at the top of the hour.
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/update-stats.yml
+      - scripts/update_stats.py
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-statistics
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.repository == 'ichirou-hue/ichirou-hue' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Generate statistics
+        env:
+          GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: python3 scripts/update_stats.py
+      - name: Commit changed statistics
+        run: |
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "Statistics are already current"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh profile statistics"
+          git push origin HEAD:main
